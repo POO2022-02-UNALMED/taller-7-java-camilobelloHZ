@@ -73,7 +73,6 @@ public class Tesis extends Escrito{
 	//metodos
 	
 	public String toString() {
-		//int x= argumentos.length;
 		return (getOrigen()+ "\n" +getTitulo()+"\n" +getAutor()+ "\n" +getPaginas()+"\n"+idea+ "\n" + argumentos.length+ "\n"+ conclusion+" \n"+ referencias);
 	}
 	
