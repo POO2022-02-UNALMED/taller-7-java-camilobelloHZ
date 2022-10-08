@@ -73,8 +73,7 @@ public class Tesis extends Escrito{
 	//metodos
 	
 	public String toString() {
-		return getOrigen()+"\n"+getTitulo()+"\n"+getAutor()+"\n"
-				+getPaginas()+"\n"+idea+"\n"+argumentos.length+"\n"+conclusion+"\n"+referencias;
+		return (getOrigen()+ "\n" +getTitulo()+ "\n" +getAutor()+ "\n" +getPaginas()+ "\n" +idea+ "\n" +argumentos.length+ "\n" +conclusion+ "\n" +referencias);
 	}
 	
 	public int palabrasTotales(int parametro) {
